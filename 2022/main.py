@@ -1,4 +1,4 @@
-problemNum = 1747
+problemNum = 2621
 
 if __name__ == "__main__":
-    exec(open("%d.py" % problemNum).read())
+    exec(open("%d.py" % problemNum, encoding="utf-8").read())
